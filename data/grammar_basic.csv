@@ -1,0 +1,22 @@
+level,type,es,en,nah
+2,n_food,tortilla,tortilla,tlaxcal
+2,n_food,manzana,apple,xocotl
+1,copular,hombre,man,tlacatl
+1,copular,mujer,woman,siuatl
+2,n_food_pl,tortillas,tortillas,tlaxcame
+2,n_food_pl,manzanas,apples,xocome
+1,copular_pl,hombres,men,tlacame
+1,copular_pl,mujeres,women,siuame
+1,copular,niño,boy,telpocatl
+1,copular,niña,girl,ichpocatl
+1,copular,bebé,baby,conetl
+1,copular_pl,niños,boys,telpocame
+1,copular_pl,niñas,girls,ichpocame
+1,copular_pl,bebés,babies,coneme
+1,vp,yo soy <copular>,I am a <copular>,ne ni<copular>
+2,vp,estoy comiendo,I am eating,ne nitlakuahtoc
+2,vp,estoy comiendo <n_food>,I am eating <n_food>,ne nitlakuahtoc <n_food>
+2,n_food,una tortilla,a tortilla,se tlaxcal
+2,n_food,una manzana,an apple,se xocotl
+2,n_food,la tortilla,the tortilla,in tlaxcal
+2,n_food,la manzana,the apple,in xocotl

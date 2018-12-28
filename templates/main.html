@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ometlahtol</title>
+  </head>
+  <body>
+  <h2>Escoge tu nivel</h2>
+  <form action="{{ url_for('practice') }}" method="post">
+    <input type="radio" name="levels" value="1">Level I</input>
+    <input type="radio" name="levels" value="2">Level II</input>
+    <input type="submit">
+</form>
+  </body>
+</html>

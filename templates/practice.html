@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ometlahtol</title>
+  </head>
+  <body>
+  <h2>Escoge el imagen que corresponde con la palabra</h2>
+  <h3 style="font: bold;">{{ word }}</h3>
+  {% for option in opts %}
+    <img src="/static/{{ level }}/{{ option }}.jpg" id="{{ option }}" height="200px" width="200px" style="cursor: pointer; border: 5px solid clear">
+  {% endfor %}
+  <form action="{{ url_for('practice') }}" method="post">
+    <input type="radio" name="levels" id="{{ level }}" style="display: none" checked="checked">
+    <input name="levels" type="submit">
+  </form>
+  </body>
+  <script>
+    document.getElementById("{{ word }}").addEventListener("click", function(){
+      document.getElementById("{{ word }}").style.border = "5px solid lightgreen";
+
+    });
+  </script>
+</html>
